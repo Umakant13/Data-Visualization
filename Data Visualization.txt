@@ -1,0 +1,58 @@
+Matplotlib Basics — Using Titanic Dataset
+
+Dataset: sns.load_dataset("titanic")
+
+📘 Practice Questions
+
+1️⃣ Plot a line chart showing the number of passengers by age.
+2️⃣ Plot a bar chart showing the number of passengers by class (pclass).
+3️⃣ Plot a horizontal bar chart showing the number of survivors (survived) by gender (sex).
+4️⃣ Plot a scatter plot showing relationship between age and fare.
+5️⃣ Draw a pie chart showing percentage of passengers in each class (pclass).
+6️⃣ Create multiple line plots comparing average fare by age for each class.
+7️⃣ Plot a histogram of passenger ages.
+8️⃣ Add title, labels, legend, and grid to any of the above plots.
+9️⃣ Customize colors and line styles for clarity.
+🔟 Save a chart as an image file named titanic_plot.png.
+
+🟡 Seaborn Visualization — Using Titanic Dataset
+📘 Practice Questions
+
+11️⃣ Plot a boxplot of fare across different classes (pclass).
+12️⃣ Plot a violin plot comparing age distributions by gender.
+13️⃣ Create a countplot showing passenger count by embarkation port (embarked).
+14️⃣ Plot a pairplot of numeric features (age, fare, sibsp, parch).
+15️⃣ Draw a heatmap of correlations among numeric columns.
+16️⃣ Plot a barplot showing average fare by class.
+17️⃣ Plot a scatterplot of fare vs age with hue by survived.
+18️⃣ Create a swarmplot to visualize fare distribution by class.
+19️⃣ Plot a lineplot showing average fare vs age grouped by sex.
+20️⃣ Use a FacetGrid to visualize age distribution across gender and class.
+
+🟠 Exploratory Data Analysis (EDA) — Using Titanic Dataset
+📘 Practice Questions
+
+21️⃣ Load the Titanic dataset and show first 10 rows.
+22️⃣ Check dataset info and identify missing values.
+23️⃣ Fill missing age values with the median age.
+24️⃣ Describe summary statistics for numeric columns.
+25️⃣ Plot histograms for all numeric columns.
+26️⃣ Plot boxplots to detect outliers in fare and age.
+27️⃣ Plot count of passengers by sex and class.
+28️⃣ Compare average fare by survival status (survived).
+29️⃣ Create a correlation heatmap and identify most related features.
+30️⃣ Create a pairplot for key numeric columns to visualize patterns.
+
+🔵 Visual Storytelling & Insights — Using Titanic Dataset
+📘 Practice Questions
+
+31️⃣ Plot survival rate by class — use a bar plot and annotate percentages.
+32️⃣ Compare average fare of survivors vs non-survivors.
+33️⃣ Show survival count by gender and class using grouped bar chart.
+34️⃣ Visualize age distribution for survivors vs non-survivors using histogram.
+35️⃣ Create a pie chart showing gender ratio in the dataset.
+36️⃣ Plot a heatmap showing survival rate across gender and class.
+37️⃣ Compare embarkation port vs survival rate using barplot.
+38️⃣ Create a scatterplot of age vs fare, coloring by class and sizing by survival.
+39️⃣ Plot trend of average age per class in increasing order.
+40️⃣ Combine 3–4 of the above plots in one figure to present insights visually (dashboard style).
